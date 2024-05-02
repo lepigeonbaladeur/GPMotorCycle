@@ -11,7 +11,7 @@
     background-color: #fff;
     background-size: cover;
     background-position: bottom;
-    background-image:url(assets/background/bg3.png);
+    background-image:url(/assets/background/bg3.png);
 }
 #section-1 header {
     display: flex;
