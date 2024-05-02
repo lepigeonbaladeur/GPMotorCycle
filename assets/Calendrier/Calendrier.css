@@ -231,6 +231,16 @@ footer h5{
     align-items: center;
 }
 
+#section-2 .container-icon .bloc-img-fr {
+    background-color: #ea5863;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 767px) {
     #section-1 header .left img {
         display: none;
