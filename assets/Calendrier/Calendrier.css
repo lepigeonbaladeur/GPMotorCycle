@@ -101,7 +101,7 @@
 
 #section-2 h2 {
     color: #EA5863;
-    font-size: 2em;
+    font-size: 4em;
 }
 
 #section-2 .container-icon {
@@ -231,7 +231,7 @@ footer h5{
     align-items: center;
 }
 
-#section-2 .container-icon .bloc-img-fr {
+#section-2 .container-icon .bloc-img-encour {
     background-color: #ea5863;
     height: 250px;
     width: 250px;
@@ -239,6 +239,14 @@ footer h5{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#section-2 .container-icon .bloc-img-encour:hover {
+    transform: rotate(10deg);
+    transition-duration:0.5s; 
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 767px) {
