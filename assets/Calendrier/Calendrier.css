@@ -29,6 +29,9 @@
     font-weight: 450;
 }
 
+#section-1 header .left p{
+    color: #1e1d1f;
+}
 #section-1 header nav a {
     color: #FDF0E7;
     font-weight: 300;

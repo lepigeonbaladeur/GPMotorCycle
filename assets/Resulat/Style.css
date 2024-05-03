@@ -13,6 +13,7 @@
     background-position: bottom;
     background-image:url(../background/bg3.png);
 }
+
 #section-1 header {
     display: flex;
     align-items: center;
@@ -27,6 +28,10 @@
     align-items: center;
     font-size: 1.5em;
     font-weight: 450;
+}
+
+#section-1 header .left p{
+    color: #1e1d1f;
 }
 
 #section-1 header nav a {
@@ -75,14 +80,6 @@
     margin-bottom: 25px;
 }
 
-
-#section-1 .container p {
-    font-size: 1.5em;
-    color: #000;
-    line-height: 1.5em;
-    margin-bottom: 55px;
-    font-weight: 450;
-}
 
 #section-1 .container a {
     color: #FDF0E7;
