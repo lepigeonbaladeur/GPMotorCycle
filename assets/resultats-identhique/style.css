@@ -465,6 +465,10 @@ footer h5{
         align-items: center;
    }
    
+   .table__body .non-classé {
+    background-color: #929292;
+   }
+   
    .table__body {
        width: 95%;
        max-height: calc(89% - 1.6rem);
