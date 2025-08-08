@@ -7,24 +7,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/modern.css">
     <link rel="icon" type="image/png" sizes="120x120" href="assets/logo/apple-icon-120x120.png" type="image/x-icon">
 </head>
 <body>
 
     <section id="section-1">
-        <header>
-            <div class="left">
-                <img src="assets/logo/logo.png" alt="logodusite" height="100px">
+        <header class="main-header">
+            <div class="logo-container">
+                <img src="assets/logo/logo.png" alt="GPMotorCycle Logo" height="100px">
                 <p>GPMotorCycle</p>
             </div>
-            <div class="right">
-                <nav>
-                    <a href="Résultats.html">Résultats</a>
-                    <a href="#">Pilotes</a>
-                    <a href="#">Interviews</a>
-                    <a href="calendrier.html">Calendrier</a>
-                </nav>
+            <nav class="main-nav">
+                <a href="Résultats.html">Résultats</a>
+                <a href="#">Pilotes</a>
+                <a href="#">Interviews</a>
+                <a href="calendrier.html" class="nav-button">Calendrier</a>
+            </nav>
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
             </div>
         </header>
         <div class="container">
@@ -39,40 +42,40 @@
         </div>
     </section>
 
-    <section id="section-2">
-        <h2> Les trois Prochaines courses</h2>
-        <div class="container-icon">
-            <div class="bloc-icon">
-                <div class="bloc-img">
-                    <img src="assets/Flag_pays/Barcelone.jpeg" alt="drapeaudupays">
+    <section class="upcoming-races">
+        <h2>Les trois Prochaines courses</h2>
+        <div class="races-container">
+            <div class="race-card">
+                <div class="race-flag-container">
+                    <img src="assets/Flag_pays/Barcelone.jpeg" alt="Drapeau de Barcelone">
                 </div>
-                <span>Grand prix de barcelone</span>
-                <p>24 au 26 Mai</p>
+                <span class="race-name">Grand prix de barcelone</span>
+                <p class="race-date">24 au 26 Mai</p>
             </div>
-            <div class="bloc-icon">
-                <div class="bloc-img">
-                    <img src="assets/Flag_pays/Italie.jpeg" alt="drapeaudupays">
+            <div class="race-card">
+                <div class="race-flag-container">
+                    <img src="assets/Flag_pays/Italie.jpeg" alt="Drapeau d'Italie">
                 </div>
-                <span>Grand prix d'Italie</span>
-                <p>31 Mai au 02 Juin</p>
+                <span class="race-name">Grand prix d'Italie</span>
+                <p class="race-date">31 Mai au 02 Juin</p>
             </div>
-            <div class="bloc-icon">
-                <div class="bloc-img">
-                    <img src="assets/Flag_pays/Pays-Bas.png" alt="drapeaudupays">
+            <div class="race-card">
+                <div class="race-flag-container">
+                    <img src="assets/Flag_pays/Pays-Bas.png" alt="Drapeau des Pays-Bas">
                 </div>
-                <span>Grand prix des Pays-Bas </span>
-                <p>28 au 30 Juin</p>
+                <span class="race-name">Grand prix des Pays-Bas</span>
+                <p class="race-date">28 au 30 Juin</p>
             </div>
         </div>
     </section>
-    <footer>
-        <div class="container">
-            <div class="bloc">
-                <img src="assets/logo/logo.png" alt="logodusite">
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="assets/logo/logo.png" alt="GPMotorCycle Logo">
                 <p>GPMotorCycle</p>
             </div>
-            <div class="bloc">
-                <div class="bloc-menu">
+            <div class="footer-menus">
+                <div class="footer-menu-group">
                     <span>Pilotes</span>
                     <ul>
                         <li><a href="#">Classement</a></li>
@@ -81,7 +84,7 @@
                         <li><a href="#">Communiqués</a></li>
                     </ul>
                 </div>
-                <div class="bloc-menu">
+                <div class="footer-menu-group">
                     <span>Courses</span>
                     <ul>
                         <li><a href="calendrier.html">Calendrier</a></li>
@@ -91,17 +94,12 @@
                 </div>
             </div>
         </div>
-
-        <div class="container">
-            <div class="fin">
-                <h5>Site créé par un passionné moto</h5>
-            </div>
+        <div class="footer-credits">
+            <h5>Site créé par un passionné moto</h5>
         </div>
-
-        
-        
     </footer>
 
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
 
